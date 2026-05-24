@@ -1,0 +1,21 @@
+# ── Core ────────────────────────────────────────────────────────────────────
+anthropic>=0.28.0           # Claude API + tool-use support
+
+# ── Phase 2: Web search ─────────────────────────────────────────────────────
+duckduckgo-search>=6.0.0    # free, no API key required
+
+# ── Phase 3: RAG ─────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0            # vector similarity search
+sentence-transformers>=3.0  # local embeddings (all-MiniLM-L6-v2)
+langchain>=0.2.0            # document loaders, text splitters
+langchain-community>=0.2.0  # arXiv loader, FAISS wrapper
+arxiv>=2.1.0                # arXiv paper fetching
+
+# ── Phase 5: API ─────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# ── Phase 6: Eval ────────────────────────────────────────────────────────────
+pandas>=2.2.0
+tqdm>=4.66.0

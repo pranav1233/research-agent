@@ -6,3 +6,5 @@ __pycache__/
 *.index
 data/
 .DS_Store
+eval/results.csv 
+

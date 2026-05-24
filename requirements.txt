@@ -1,5 +1,5 @@
 # ── Core ────────────────────────────────────────────────────────────────────
-anthropic>=0.28.0           # Claude API + tool-use support
+openai>=1.30.0              # OpenAI-compatible client — used to talk to Ollama locally
 
 # ── Phase 2: Web search ─────────────────────────────────────────────────────
 duckduckgo-search>=6.0.0    # free, no API key required

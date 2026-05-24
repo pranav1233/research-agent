@@ -5,3 +5,4 @@ __pycache__/
 *.faiss
 *.index
 data/
+.DS_Store

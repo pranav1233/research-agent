@@ -219,5 +219,5 @@ if __name__ == "__main__":
 
 def load_tools():
     """Import all tool modules. Must be called before run_agent()."""
-    import tools.web_search  # noqa: F401  Phase 2
-    # import tools.rag_search  # noqa: F401  Phase 3 (uncomment later)
+    import tools.web_search   # noqa: F401  Phase 2
+    import tools.rag_search   # noqa: F401  Phase 3
